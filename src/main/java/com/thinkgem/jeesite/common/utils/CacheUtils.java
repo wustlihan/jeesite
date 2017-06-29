@@ -40,7 +40,6 @@ public class CacheUtils {
 	 */
 	public static Object get(String key, Object defaultValue) {
 		Object value = get(key);
-		System.out.printf("");
 		return value != null ? value : defaultValue;
 	}
 	
